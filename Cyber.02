@@ -102,4 +102,28 @@ SCO Offers Reward for Arrest and Conviction of Mydoom Virus Author - SCO press r
 "Win32.Mydoom.A". Security Advisor. Computer Associates International. Archived from the original on 2005-04-10. Retrieved 2005-04-30.
 Information about the Mydoom worm from Symantec.com
 
-NOT COMPLETED*
+
+
+HOW DID IT STOPPED?
+
+MyDoom-A is programmed to stop spreading today, marking the end of arguably the worst email-borne viral epidemic to date. ... MyDoom-A was programmed to launch a denial of service attack against www.sco.com from infected machines.12‏/02‏/2004
+
+
+
+what the damage of the virus?
+
+The most devastating computer virus to date is MyDoom, which caused over $38 billion in damages. ... When a user was infected with the virus it creates network openings which allowed others to have access to your computer. In addition, the virus also had the ability to open random programs.
+And in Asia it was reported to hit particularly hard. For instance, South Korean government reports claimed that the Chernobyl virus caused $250 million damage, infecting a quarter of a million computers.26‏/04‏/2011
+
+
+how many computers were infected?
+
+F-Secure antivirus expert Mikko Hypponen called Mydoom the "the worst e-mail worm incident in virus history". MessageLabs ranked it number 5 on its list of most active worms. It caused slowdowns of internet traffic worldwide. Kaspersky estimated that 600,000 to 700,000 computers were infected with the worm.
+
+
+why the attack worked?
+
+ The MyDoom (or Novarg) virus is another worm that can create a backdoor in the victim computer's operating system. ... Like other viruses, MyDoom searched victim computers for e-mail addresses as part of its replication process.
+
+
+worked By : EYAD Hr

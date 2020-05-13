@@ -1,0 +1,105 @@
+Class task
+Choose famous virus
+Write details:
+date
+name
+lanugage, os, and technique used.
+who behind? what the motives?
+link to the code if exists
+why the attack worked?
+how many computers were infected
+what the damage of the virus?
+how did it stopped?
+-------------------------------------------------------------------------------------
+ANSWER:
+
+DATE: 16th of February 2004
+
+NAME: MyDoom
+
+LANUGAGE, OS, AND TECHNIQUE USED:
+Mydoom appears to have been commissioned by e-mail spammers so as to send junk e-mail through infected computers.[2] The worm contains the text message "andy; I'm just doing my job, nothing personal, sorry," leading many to believe that the worm's creator was paid. Early on, several security firms expressed their belief that the worm originated from a programmer in Russia. The actual author of the worm is unknown.
+
+Speculative early coverage held that the sole purpose of the worm was to perpetrate a distributed denial-of-service attack against SCO Group. 25 percent of Mydoom.A-infected hosts targeted www.sco.com with a flood of traffic. Trade press conjecture, spurred on by SCO Group's own claims, held that this meant the worm was created by a Linux or open source supporter in retaliation for SCO Group's controversial legal actions and public statements against Linux. This theory was rejected immediately by security researchers. Since then, it has been likewise rejected by law enforcement agents investigating the virus, who attribute it to organized online crime gangs.
+Mydoom
+
+Type	Multiple vector worm
+Creator	: 
+Date Discovered: 	2004.01.26
+Place of Origin: 	Russia
+Source Language: 	C++
+Platform	MS  : Windows
+File Type(s)	: .cmd, .exe, .pif, .scr, .zip
+Infection Length:	22,528 bytes
+Reported Costs	$38.5 billion
+
+Mydoom, also known as W32.MyDoom@mm, Novarg, Mimail.R and Shimgapi, is a computer worm affecting Microsoft Windows. It was first sighted on January 26, 2004. It became the fastest-spreading e-mail worm ever (as of January 2004), exceeding previous records set by the Sobig worm and ILOVEYOU, a record which as of 2019 has yet to be surpassed.[1]
+
+Mydoom appears to have been commissioned by e-mail spammers so as to send junk e-mail through infected computers.[2] The worm contains the text message "andy; I'm just doing my job, nothing personal, sorry," leading many to believe that the worm's creator was paid. Early on, several security firms expressed their belief that the worm originated from a programmer in Russia. The actual author of the worm is unknown.
+
+Speculative early coverage held that the sole purpose of the worm was to perpetrate a distributed denial-of-service attack against SCO Group. 25 percent of Mydoom.A-infected hosts targeted www.sco.com with a flood of traffic. Trade press conjecture, spurred on by SCO Group's own claims, held that this meant the worm was created by a Linux or open source supporter in retaliation for SCO Group's controversial legal actions and public statements against Linux. This theory was rejected immediately by security researchers. Since then, it has been likewise rejected by law enforcement agents investigating the virus, who attribute it to organized online crime gangs.
+
+Initial analysis of Mydoom suggested that it was a variant of the Mimail worm—hence the alternate name Mimail.R—prompting speculation that the same people were responsible for both worms. Later analyses were less conclusive as to the link between the two worms.
+
+Mydoom was named by Craig Schmugar, an employee of computer security firm McAfee and one of the earliest discoverers of the worm. Schmugar chose the name after noticing the text "mydom" within a line of the program's code. He noted: "It was evident early on that this would be very big. I thought having 'doom' in the name would be appropriate."[3]
+
+MyDoom is the most devastating computer virus to date, which caused more than $38 billion in damage.[1]
+
+
+Contents
+1	Technical overview
+2	Timeline
+3	References in Media
+4	See also
+5	References
+6	External links
+Technical overview
+Mydoom is primarily transmitted via e-mail, appearing as a transmission error, with subject lines including "Error", "Mail Delivery System", "Test" or "Mail Transaction Failed" in different languages, including English and French. The mail contains an attachment that, if executed, resends the worm to e-mail addresses found in local files such as a user's address book. It also copies itself to the "shared folder" of peer-to-peer file sharing application Kazaa in an attempt to spread that way.
+
+Mydoom avoids targeting e-mail addresses at certain universities, such as Rutgers, MIT, Stanford and UC Berkeley, as well as certain companies such as Microsoft and Symantec. Some early reports claimed the worm avoids all .edu addresses, but this is not the case.
+
+The original version, Mydoom.A, is described as carrying two payloads:
+
+A backdoor on port 3127/tcp to allow remote control of the subverted PC (by putting its own SHIMGAPI.DLL file in the system32 directory and launching it as a child process of Windows Explorer); this is essentially the same backdoor used by Mimail.
+A denial-of-service attack against the website of the controversial company SCO Group, timed to commence 1 February 2004. Many virus analysts doubted if this payload would actually function. Later testing suggests that it functions in only 25% of infected systems.
+A second version, Mydoom.B, as well as carrying the original payloads, also targets the Microsoft website and blocks access to Microsoft sites and popular online antivirus sites by modifying the hosts file, thus blocking virus removal tools or updates to antivirus software. The smaller number of copies of this version in circulation meant that Microsoft's servers suffered few ill effects.[4][5]
+
+Timeline
+26 January 2004: The Mydoom virus is first identified around 8am EST (1300 UTC), just before the beginning of the workday in North America. The earliest messages originate from Russia. For a period of a few hours mid-day, the worm's rapid spread slows overall internet performance by approximately ten percent and average web page load times by approximately fifty percent. Computer security companies report that Mydoom is responsible for approximately one in ten e-mail messages at this time.
+Although Mydoom's denial of service attack was scheduled to begin on 1 February 2004, SCO Group's website goes offline briefly in the hours after the worm is first released. It is unclear whether Mydoom was responsible for this. SCO Group claimed it was the target of several distributed denial of service attacks in 2003 that were unrelated to computer viruses.
+27 January: SCO Group offers a US $250,000 reward for information leading to the arrest of the worm's creator. In the US, the FBI and the Secret Service begin investigations into the worm.
+28 January: A second version of the worm is discovered two days after the initial attack. The first messages sent by Mydoom.B are identified at around 1400 UTC and also appear to originate from Russia. The new version includes the original denial of service attack against SCO Group and an identical attack aimed at Microsoft.com beginning on 3 February 2004; however, both attacks are suspected to be either broken, or non-functional decoy code intended to conceal the backdoor function of Mydoom. Mydoom.B also blocks access to the websites of over 60 computer security companies, as well as pop-up advertisements provided by DoubleClick and other online marketing companies.
+The spread of MyDoom peaks; computer security companies report that Mydoom is responsible for roughly one in five e-mail messages at this time.
+29 January: The spread of Mydoom begins to decline as bugs in Mydoom.B's code prevent it from spreading as rapidly as first anticipated. Microsoft offers US $250,000 reward for information leading to the arrest of the creator of Mydoom.B.
+1 February 2004: An estimated one million computers around the world infected with Mydoom begin the virus's massive distributed denial of service attack—the largest such attack to date. As 1 February arrives in East Asia and Australia, SCO removes www.sco.com from the DNS around 1700 UTC on 31 January. (There is as yet no independent confirmation of www.sco.com in fact suffering the planned DDOS.)
+3 February: Mydoom.B's distributed denial of service attack on Microsoft begins, for which Microsoft prepares by offering a website which will not be affected by the worm, information.microsoft.com.[6] However, the impact of the attack remains minimal and www.microsoft.com remains functional. This is attributed to the comparatively low distribution of the Mydoom.B variant, the high load tolerance of Microsoft's web servers and precautions taken by the company. Some experts point out that the burden is less than that of Microsoft software updates and other such web-based services.
+9 February: Doomjuice, a “parasitic” worm, begins spreading. This worm uses the backdoor left by Mydoom to spread. It does not attack non-infected computers. Its payload, akin to one of Mydoom.B's, is a denial-of-service attack against Microsoft.[7]
+12 February: Mydoom.A is programmed to stop spreading. However, the backdoor remains open after this date.
+1 March: Mydoom.B is programmed to stop spreading; as with Mydoom.A, the backdoor remains open.
+26 July: A variant of Mydoom attacks Google, AltaVista and Lycos, completely stopping the function of the popular Google search engine for the larger portion of the workday, and creating noticeable slow-downs in the AltaVista and Lycos engines for hours.
+10 September: MyDoom versions U, V, W and X appear, sparking worries that a new, more powerful MyDoom is being prepared.
+18 February 2005: MyDoom version AO appears.
+July 2009: MyDoom resurfaces in the July 2009 cyber attacks affecting South Korea and the United States.[8]
+References in Media
+Richard D. James has a track named after this virus in his 11th installment of the Analord series. Some of the other tracks in the e.p. are also named after viruses.
+
+See also
+Timeline of notable computer viruses and worms
+References
+ "Security firm: MyDoom worm fastest yet". CNN.com. Time Warner. 2004-01-28.
+ Tiernan Ray (2004-02-18). "E-mail viruses blamed as spam rises sharply". The Seattle Times. The Seattle Times Company.
+ "More Doom?". Newsweek. Washington Post Company. 2004-02-03.
+ "Mydoom virus starts to fizzle out". BBC News. BBC. 2004-02-04.
+ http://abcnews.go.com/Technology/ZDM/story?id=97385
+ "Microsoft Information: MyDoom (Wayback Archive from 4 Feb 2004)". microsoft.com. 2004-02-04. Archived from the original on February 4, 2004.
+ "W32.HLLW.Doomjuice". Symantec Corporation. 2007-02-13.
+ "Lazy Hacker and Little Worm Set Off Cyberwar Frenzy". Wired News. 2009-07-08. Retrieved 2009-07-09.
+External links
+MyDoom and DDoS Attacks
+"Email-Worm.Win32.Mydoom.a". Viruslist.com. Kaspersky Lab. Archived from the original on 2006-10-15.
+SCO Offers Reward for Arrest and Conviction of Mydoom Virus Author - SCO press release, 27 January 2004. Note the claim that the denial of service attack had already started at this date.
+"Mydoom". F-Secure Computer Virus Information Pages. F-Secure Corporation.
+"Win32.Mydoom.A". Security Advisor. Computer Associates International. Archived from the original on 2005-04-10. Retrieved 2005-04-30.
+Information about the Mydoom worm from Symantec.com
+
+NOT COMPLETED*
